@@ -1,0 +1,15 @@
+C:\Coding\School\pretpark-school\bin\Debug\net6.0\pretpark-school.exe
+C:\Coding\School\pretpark-school\bin\Debug\net6.0\pretpark-school.deps.json
+C:\Coding\School\pretpark-school\bin\Debug\net6.0\pretpark-school.runtimeconfig.json
+C:\Coding\School\pretpark-school\bin\Debug\net6.0\pretpark-school.dll
+C:\Coding\School\pretpark-school\bin\Debug\net6.0\pretpark-school.pdb
+C:\Coding\School\pretpark-school\obj\Debug\net6.0\pretpark-school.csproj.AssemblyReference.cache
+C:\Coding\School\pretpark-school\obj\Debug\net6.0\pretpark-school.GeneratedMSBuildEditorConfig.editorconfig
+C:\Coding\School\pretpark-school\obj\Debug\net6.0\pretpark-school.AssemblyInfoInputs.cache
+C:\Coding\School\pretpark-school\obj\Debug\net6.0\pretpark-school.AssemblyInfo.cs
+C:\Coding\School\pretpark-school\obj\Debug\net6.0\pretpark-school.csproj.CoreCompileInputs.cache
+C:\Coding\School\pretpark-school\obj\Debug\net6.0\pretpark-school.dll
+C:\Coding\School\pretpark-school\obj\Debug\net6.0\refint\pretpark-school.dll
+C:\Coding\School\pretpark-school\obj\Debug\net6.0\pretpark-school.pdb
+C:\Coding\School\pretpark-school\obj\Debug\net6.0\pretpark-school.genruntimeconfig.cache
+C:\Coding\School\pretpark-school\obj\Debug\net6.0\ref\pretpark-school.dll
