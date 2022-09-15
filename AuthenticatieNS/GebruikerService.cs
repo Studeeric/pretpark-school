@@ -6,19 +6,14 @@ namespace AuthenticatieNS
         public GebruikerContext gc = new GebruikerContext();
         public Gebruiker Registreer(string email, string wachtwoord)
         {
-            if (es.Email("Je account is gemaakt.", email)){
-                gc.NieuweGebruiker(wachtwoord, email);
-                for (int i = 0; i >= gc.AantalGebruikers(); i++)
-                {
-                    if (gc.GetGebruiker(i).Email == email)
-                    {
-                        return gc.GetGebruiker(i);
-                    }
-                }
-                return null;
-            } else
+            if (es.Email("Je account is gemaakt.", email))
             {
-                return null;
+                gc.NieuweGebruiker(wachtwoord, email);
+                return gc.GetGebruiker(gc.AantalGebruikers() - 1);
+            }
+            else
+            {
+                return new Gebruiker("Nope", "Nope");
             }
         }
 
@@ -38,10 +33,13 @@ namespace AuthenticatieNS
         {
             foreach (Gebruiker g in gc._Gebruikers)
             {
-                if (g.Email == email && g.Token.token == token)
+                if (g.Token != null && g.Email == email)
                 {
-                    g.Token.token = null;
-                    return true;
+                    if (g.Token.token == token)
+                    {
+                        g.Token = null;
+                        return true;
+                    }
                 }
             }
             return false;

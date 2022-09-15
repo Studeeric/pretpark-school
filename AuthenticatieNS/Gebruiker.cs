@@ -2,8 +2,8 @@ namespace AuthenticatieNS
 {
     public class Gebruiker
     {
-        public string? Wachtwoord {get; set;}
-        public string? Email {get; set;}
+        public string Wachtwoord {get; set;}
+        public string Email {get; set;}
 
         public VerificatieToken? Token {get; set;}
 

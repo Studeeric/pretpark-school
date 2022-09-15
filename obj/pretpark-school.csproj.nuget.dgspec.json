@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Coding\\Projects\\pretpark-school\\pretpark-school.csproj": {}
+    "C:\\Coding\\School\\pretpark-school\\pretpark-school.csproj": {}
   },
   "projects": {
-    "d:\\Coding\\Projects\\pretpark-school\\pretpark-school.csproj": {
+    "C:\\Coding\\School\\pretpark-school\\pretpark-school.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Coding\\Projects\\pretpark-school\\pretpark-school.csproj",
+        "projectUniqueName": "C:\\Coding\\School\\pretpark-school\\pretpark-school.csproj",
         "projectName": "pretpark-school",
-        "projectPath": "d:\\Coding\\Projects\\pretpark-school\\pretpark-school.csproj",
-        "packagesPath": "C:\\Users\\Eric\\.nuget\\packages\\",
-        "outputPath": "d:\\Coding\\Projects\\pretpark-school\\obj\\",
+        "projectPath": "C:\\Coding\\School\\pretpark-school\\pretpark-school.csproj",
+        "packagesPath": "C:\\Users\\Joseph95\\.nuget\\packages\\",
+        "outputPath": "C:\\Coding\\School\\pretpark-school\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Eric\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Joseph95\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,7 +43,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -52,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
