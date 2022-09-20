@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZcjIwMATRXnhab7V+86XT9RNDTDXd2s5GLPX1RkbCB9PIWtSc5wvwFefSCET/RZDleqSBUSTrcm+nrIaYr/XaQ==",
+  "dgSpecHash": "+Cw6QBB/huicGsm8p3iRYzPJo4wXuYMC3BzEVlI2wafN9KCx9xbzPQwCbhsZTtHgzvoW2r74W9xbUnwAEKsefg==",
   "success": true,
   "projectFilePath": "C:\\Coding\\School\\pretpark-school\\src\\Pretpark.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Joseph95\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
+    "C:\\Users\\Joseph95\\.nuget\\packages\\moq\\4.18.2\\moq.4.18.2.nupkg.sha512",
+    "C:\\Users\\Joseph95\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
