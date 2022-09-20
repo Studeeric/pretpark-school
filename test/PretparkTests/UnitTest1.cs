@@ -78,7 +78,7 @@ public class UnitTest1
         var moqService = new Mock<IMessengerService>();
         var moqContext = new Mock<IContext>();
         Gebruiker gebruiker = new Gebruiker(email, wachtwoord);
-        gebruiker.Token = null;
+        gebruiker.Token = null; // Zorgt ervoor dat de gebruiker al geverifieerd is.
         moqContext.Setup(x => x.GetAlleGebruikers()).Returns(new List<Gebruiker>{gebruiker});
 
         GebruikerService service = new GebruikerService(moqService.Object, moqContext.Object);
@@ -98,8 +98,11 @@ public class UnitTest1
         var moqService = new Mock<IMessengerService>();
         var moqContext = new Mock<IContext>();
         Gebruiker gebruiker = new Gebruiker(email, wachtwoord);
-        gebruiker.Token.token = token;
-        gebruiker.Token.verloopDatum = gebruiker.Token.verloopDatum.AddDays(-4);
+        if (gebruiker.Token != null)
+        {
+            gebruiker.Token.token = token;
+            gebruiker.Token.verloopDatum = gebruiker.Token.verloopDatum.AddDays(-4);
+        }
         moqContext.Setup(x => x.GetAlleGebruikers()).Returns(new List<Gebruiker>{gebruiker});
 
         GebruikerService service = new GebruikerService(moqService.Object, moqContext.Object);
